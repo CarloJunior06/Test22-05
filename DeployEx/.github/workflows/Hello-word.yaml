@@ -9,5 +9,5 @@ jobs:
       runs-on: "ubuntu-latest"
       steps:
         - name: Hello step
-          run: echo "Helo world :)"
+          run: echo "Helo world ! :)"
   
