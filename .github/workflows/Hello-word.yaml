@@ -10,4 +10,10 @@ jobs:
       steps:
         - name: Hello step
           run: echo "Helo world ! :)"
-  
+        - uses: actions/checkout@v4
+        - name: List files
+          run: ls
+        - uses: actions/setup-dotnet@v4
+          with:
+            dotnet-version: '8.0'
+        - run: dotnet build <>
